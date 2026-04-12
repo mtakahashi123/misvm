@@ -1,3 +1,7 @@
+These are the necessary files to replicate the results reported in Takahashi (2026).
+
+Takahashi, M. (2026). Multiple imputation based on the support vector machine for high-dimensional data with general missing patterns in causal inference. Journal of Statistical Computation and Simulation.
+
 First, download "00miceSVM.R" on your computer. This is the file that the author created as multiple imputation based on the support vector machine using multivariate imputation by chained equations (mice). After downloding this file, you can use miceSVM in conjunction with R package mice.
 
 Second, download the files (01Tbale1, 02Table1). These files allow you to replicate the results reported in Table 3a and Table 3b in the main text. Also, by changing p1 <- 496, then you can replicate Table A4a and TableA4b in the appendix. Set the directory where you saved 00miceSVM.R. For example, source("C://Users//...//00miceSVM.R"). Copy and paste the entire code into R.
